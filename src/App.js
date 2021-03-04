@@ -1,13 +1,12 @@
 import React from 'react'
 import './App.css';
-import { Test } from './components/test'
+import { ValueComponent } from './components/ValueComponent'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Test/>
-        <Test/>
+        <ValueComponent/>
       </header>
     </div>
   );
