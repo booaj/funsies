@@ -16,6 +16,9 @@ const App = () => {
           <Link to="/two">
             <Button type="primary">Two</Button>
           </Link>
+          <Link to="/three">
+            <Button type="primary">Three</Button>
+          </Link>
           <RootRouter/>
         </header>
       </div>
